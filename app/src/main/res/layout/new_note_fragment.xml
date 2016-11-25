@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout">
+
+
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/img"
+            android:id="@+id/imageView2"
+            android:paddingLeft="15dp"
+            android:paddingTop="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mustafa Gamal"
+        android:textIsSelectable="true"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:id="@+id/nameofProfile"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="3dp"
+       />
+        <Spinner
+            android:id="@+id/spinner"
+            android:drawSelectorOnTop="true"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom"
+            />
+    </LinearLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout"
+            android:textColorHint="#3d3d3d"
+            android:isScrollContainer="false"
+            android:animateLayoutChanges="true"
+            >
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:hint="Main Topic"
+            android:id="@+id/newNoteMaintopic"
+            android:shadowColor="#000000"
+            android:animateLayoutChanges="true"
+            />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/finaltopicLayout">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MainTopic : "
+                    android:textSize="17sp"
+                    android:textColor="#000000"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                     android:textSize="15sp"
+                    android:textColor="#000000"
+                    android:id="@+id/final_main_topic"
+                    />
+
+
+            </LinearLayout>
+   </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout"
+            android:textColorHint="#3d3d3d"
+            android:isScrollContainer="false"
+            android:animateLayoutChanges="true"
+            >
+
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:hint="Title"
+                android:id="@+id/newNoteTitle"
+                android:animateLayoutChanges="true"
+                  android:imeOptions="actionUnspecified"
+                  android:singleLine="true"
+
+            />
+        </android.support.design.widget.TextInputLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/finaltitlelayout">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Title : "
+                android:textSize="17sp"
+                android:textColor="#000000"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="#000000"
+                android:id="@+id/final_title"
+                />
+
+
+        </LinearLayout>
+
+        <EditText
+             android:layout_width="match_parent"
+            android:layout_height="328dp"
+            android:hint="What's Your new note ? "
+            android:gravity="top|left"
+            android:id="@+id/newnotecontent"/>
+
+    </LinearLayout>
+        <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Post"
+        android:id="@+id/postbtn"
+        android:layout_alignParentBottom="true"
+        />
+</RelativeLayout>

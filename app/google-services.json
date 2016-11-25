@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "679115568450",
+    "firebase_url": "https://notes-65cc8.firebaseio.com",
+    "project_id": "notes-65cc8",
+    "storage_bucket": "notes-65cc8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:679115568450:android:004fb0f14759cd79",
+        "android_client_info": {
+          "package_name": "com.example.piso.noteapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "679115568450-kdot4vcnvh8ndg6ji05t2qd8cueaer4p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC03vrQNijLkPemKxkxDHdG0cNyAuX8c0o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

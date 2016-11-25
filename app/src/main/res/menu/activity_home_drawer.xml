@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/hometab"
+            android:icon="@drawable/homeicon"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/maintobictab"
+            android:icon="@drawable/maintopicicon"
+            android:title="Main Tobic" />
+        <item
+            android:id="@+id/peopletab"
+            android:icon="@drawable/peopleicon"
+            android:title="People"
+            />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/sharetab"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/sendtab"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>
